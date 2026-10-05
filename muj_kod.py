@@ -6,3 +6,13 @@ def zpracuj_soubor(nazev_souboru):
             radek = radek.strip()
             if not radek:
                 continue
+
+                jmeno, vaha, datum, cena, pohlavi = radek.split(";")
+
+                if pohlavi == m:
+                    pohlavi = "samecek"
+                
+                else
+                    pohlavi = "samicka"
+
+                cena_se_slevou = float(cena) * 0.9
